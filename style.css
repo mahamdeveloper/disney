@@ -1,0 +1,141 @@
+header{
+    background-color: #6A4A31;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+}
+nav{
+    width: 80%;
+    /* border: 1px solid white; */
+    margin: auto;
+}
+ul{
+    /* border: 1px solid green; */
+    float: right;
+    margin-right: 70px;
+    margin-top: 35px;
+}
+li{
+    display: inline-block;
+    padding: 5px 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+li:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 5px;
+    cursor: pointer;
+}
+nav>img{
+    width: 200px;
+    height: 100px;
+    vertical-align: middle;
+}
+#slider{
+    
+    margin-top: 100px;
+}
+#slider>img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    position: relative;
+}
+#slider-text{
+    background-color: #6a4a3179;
+    width: 30%;
+    position: absolute;
+    top: 140px;
+    right: 50px;
+    padding: 10px;
+}
+#slider-text>h1{
+    font-family: "Playwrite HR Lijeva", cursive; 
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #87878F;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+#slider-text>p{
+    color: #87878F;
+    text-align: justify;
+}
+#about{
+    background-color: #6A4A31;
+    color: #87878F;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+#about-section{
+    width: 100%;
+}
+#about-section>#left{
+    width: 50%;
+    float: left;
+}
+#left>img{
+    width: 100%;
+}
+#right{
+    width: 50%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#right>p:first-letter{
+    color: #6A4A31;
+    font-size: 36px;
+    font-family: "Playwrite HR Lijeva", cursive; 
+}
+#right>p{
+    text-align: justify;
+}
+#items{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    /* background-color: violet; */
+}
+#items>#item{
+    width: 30%;
+    border: 2px solid #87878F;
+    padding: 5px;
+    float: left;
+    margin-left: 25px;
+}
+#items>#item>img{
+    width: 100%;
+}
+#items>h2{
+    background-color: #6A4A31;
+    font-size: 36px;
+    color: #87878F;
+    text-transform: uppercase;
+}
+#items>p{
+    text-align: justify;
+}
+button{
+    background-color: #6A4A31;
+    font-size: 24px;
+    border-radius: 10px;
+    color: #87878F;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+button:hover{
+    color: #6A4A31;
+    background-color: #87878F;
+    cursor: pointer;
+    font-weight: bold;
+}
+#item:hover{
+    box-shadow: 10px 5px 5px #6A4A31;
+}
